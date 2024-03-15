@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./../images/roomquest logo.png";
 import carousel1 from "./../images/ROOMQUEST (8).png";
 import carousel2 from "./../images/ROOMQUEST (5).png";
+import carousel3 from "./../images/ROOMQUEST (6).png";
 
 function Navbar() {
   return (
@@ -58,7 +59,7 @@ function Navbar() {
             <img src={carousel2} className="carousel-size" />
           </div>
           <div class="carousel-item">
-            <img src={carousel1} className="carousel-size" />
+            <img src={carousel3} className="carousel-size" />
           </div>
         </div>
         <button
