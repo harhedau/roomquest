@@ -15,8 +15,11 @@ import area5 from "./../images/area5.jpg";
 function Card() {
   return (
     <div>
-      <h1 class="title link-underline-dark">
-      <u className="text-yellow-500 font-bold text-3xl">LOCATION WHERE YOU CAN FIND BEST ACCOMODATIONS</u></h1>
+      <h1 class="title link-underline-dark text-center mt-20 mb-5">
+        <u className="text-yellow-500 font-bold text-3xl ">
+          LOCATION WHERE YOU CAN FIND BEST ACCOMODATIONS
+        </u>
+      </h1>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -65,7 +68,9 @@ function Card() {
       </div>
 
       <p className="fs-3 text-center mt-5">
-        <b><u>FIND BEST RENT ROOMS</u></b>
+        <b>
+          <u>FIND BEST RENT ROOMS</u>
+        </b>
       </p>
       <div className="scroll-container overflow-auto">
         <div className="d-flex">
