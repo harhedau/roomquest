@@ -16,7 +16,7 @@ function Card() {
   return (
     <div>
       <h1 class="title link-underline-dark">
-      <u>LOCATION WHERE YOU CAN FIND BEST ACCOMODATIONS</u></h1>
+      <u className="text-yellow-500">LOCATION WHERE YOU CAN FIND BEST ACCOMODATIONS</u></h1>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
